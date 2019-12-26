@@ -29,7 +29,7 @@
         <!--<groovyVersion>2.5.6</groovyVersion>-->
         <groovyVersion>2.4.15</groovyVersion>
         <!--<spring.version>3.2.8.RELEASE</spring.version>-->
-        <spring.version>5.0.5.RELEASE</spring.version>
+        <spring.version>5.2.2.RELEASE</spring.version>
     </properties>
 
     <dependencies>
