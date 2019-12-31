@@ -14,6 +14,6 @@ class LogAuditorIntroducer {
         String tst = 'hello'
     }
 
-    @DeclareParents(value='com.domain.groovyservice.impl.AccountTransferService+', defaultImpl= DefaultGroovyLogAuditor.class)
+    @DeclareParents(value='com.domain.groovyservice.AccountTransferService+', defaultImpl= DefaultGroovyLogAuditor.class)
     public static GroovyLogAuditor logAuditor;
 }

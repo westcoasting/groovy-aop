@@ -14,7 +14,7 @@ import javax.inject.Inject;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes={SpringConfig.class})
-public class TestLogAuditorIntroducer {
+public class LogAuditorIntroducerTest {
 
     @Inject
     private JavaAccountTransferService javaTransferService;
